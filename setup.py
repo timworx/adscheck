@@ -11,9 +11,10 @@ config = {
     'author_email': 'tim@dualmediasolutions.com',
     'version': '0.0.1',
     'install_requires': ['requests>=2.3.0', 'PyYAML==3.11',],
-    'packages': ['adscheck'],
+    'packages': ['adscheck',],
     'scripts': [],
     'name': 'adscheck',
+    'package_data': {'adscheck': ['*.yml']}
 }
 
 setup(**config)
